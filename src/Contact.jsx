@@ -5,19 +5,19 @@ function Contact() {
 
 <h2 className="heading">Contact <span>Me!</span></h2>
 
-<form id="contact-form" action="action.php" method="POST">
+<form id="contact-form">
 
 <div className="input-box">
 
 <div className="input-field field">
-<input type="text" placeholder="Full Name" required id="name" className="item" autocomplete="off" />
+<input type="text" placeholder="Full Name" required id="name" className="item" autoComplete="off" />
 <div className="error-txt">Full Name can't be blank</div>
 <span className="focus"></span>
 </div>
 
 
 <div className="input-field field">
-<input type="email" placeholder="Email Address" required id="email" className="item" autocomplete="off" />
+<input type="email" placeholder="Email Address" required id="email" className="item" autoComplete="off" />
 <div className="error-txt">Email Address can't be blank</div>
 <span className="focus"></span>
 </div>
@@ -27,14 +27,13 @@ function Contact() {
 <div className="input-box">
 
 <div className="input-field field">
-<input type="tel" placeholder="Mobile Number" required id="phone" className="item" autocomplete="off" />
+<input type="tel" placeholder="Mobile Number" required id="phone" className="item" autoComplete="off" />
 <div className="error-txt">Phone Number can't be blank</div>
 <span className="focus"></span>
 </div>
 
-
 <div className="input-field field">
-<input type="text" placeholder="Email Subject" required id="subject" className="item" autocomplete="off" />
+<input type="text" placeholder="Email Subject" required id="subject" className="item" autoComplete="off" />
 <div className="error-txt">Subject can't be blank</div>
 <span className="focus"></span>
 </div>
@@ -54,7 +53,8 @@ function Contact() {
 
 </section>
 
-  ) ;
+  );
 }
+
 
 export default Contact;
